@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins";
+    text-transform: capitalize;
+    outline: none;
+    scroll-behavior: smooth;
+
+}
+
+// Rupee Symbole Font Change
+p>span {
+    font-family: "none";
+}
+
+// Common Color For This Project
+$textcolor: #FFFFFF;
+$btncolor: #1A2323;
+$wallcolor: #f3cc56;
+$viewAllcolor: #2A71F9;
+$Artgrass: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, #FDFDFD 53.65%, #ECECEC 100%);
+
+// Footers 
+.Footer {
+    background-color: $btncolor ;
+    color: $textcolor;
+    height: 65vh;
+}
+
+.footerimg {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    column-gap: 20px;
+    font-size: 12px;
+}
+
+.Footerlogoname {
+    margin-top: 55px;
+    padding-left: 2.3rem;
+    font-size: 42px;
+    color: $textcolor;
+}
+
+.Footerlogoname>h5>span {
+    color: $wallcolor;
+    font-size: 35px;
+}
+
+.Footerlogoname>p {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.footermedialogo {
+    display: flex;
+    column-gap: 5px;
+    padding-top: 15px;
+}
+
+.footermedialogo>img {
+    width: 22px;
+}
+
+.footerinput {
+    padding-top: 35px;
+    font-size: 14.5px;
+}
+
+.footerinputbtn>input {
+    padding-left: 10px;
+    border: none;
+    width: 350px;
+    height: 35px;
+    border-radius: 3px 0px 0px 3px;
+}
+
+.footerinputbtn>button {
+    margin-top: 8px;
+    width: 92px;
+    height: 35px;
+    margin-right: 13px;
+    background-color: $wallcolor;
+    border-radius: 0px 3px 3px 0px;
+    border: none;
+}
+
+.footerhome,
+.footercontact {
+    margin-top: 70px;
+    font-size: 13.5px;
+}
+
+.footerhome>span,
+.footercontact>span {
+    font-weight: 600;
+    font-size: 15px;
+
+}
+
+.footerhome>p {
+    padding-top: 10px;
+    font-size: 12.5px;
+}
+
+.footerterms {
+    margin-top: 104px;
+    font-size: 12.5px;
+}
+
+.footerterms>p {
+    padding-top: 10px;
+    font-size: 12.5px;
+}
+
+.footercontact>p {
+    padding-top: 15px;
+    font-size: 12.5px;
+}
+
+.footercontact>p>img {
+    width: 15px;
+    padding-right: 10px;
+}
+
+.footerapplink {
+    margin-top: 29px;
+    font-size: 16px;
+}
+
+.footerapplink>img {
+    padding-top: 15px;
+    width: 260px;
+}
+
+.Copyryts {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 45px 0px 45px;
+
+}
