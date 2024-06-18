@@ -1,15 +1,15 @@
 import React from 'react';
 import './Navbar.scss';
-import Needhelp from '../assets/icon/needhelpicon.svg';
-import Flag from '../assets/icon/flag.svg';
-import Cart from '../assets/icon/shopping_cart.svg';
-import Categories from '../assets/icon/Categories.svg';
-import Cutomized from '../assets/icon/Cutomized.svg';
-import Wallpaper from '../assets/icon/wallpaper.svg';
-import Stickers from '../assets/icon/Sticker.svg';
-import Artificialgrass from '../assets/icon/artificialgrass.svg';
-import RoomVisualizer from '../assets/icon/Room-Visualizer.svg';
-import Ecatalouge from '../assets/icon/E-Catalouge.svg';
+import Needhelp from './assets/icon/needhelpicon.svg';
+import Flag from './assets/icon/flag.svg';
+import Cart from './assets/icon/shopping_cart.svg';
+import Categories from './assets/icon/Categories.svg';
+import Cutomized from './assets/icon/Cutomized.svg';
+import Wallpaper from './assets/icon/wallpaper.svg';
+import Stickers from './assets/icon/Sticker.svg';
+import Artificialgrass from './assets/icon/artificialgrass.svg';
+import RoomVisualizer from './assets/icon/Room-Visualizer.svg';
+import Ecatalouge from './assets/icon/E-Catalouge.svg';
 import { Link } from 'react-router-dom';
 
 function Navbar() {
