@@ -1,13 +1,13 @@
 import React from 'react';
 import './Footer.scss';
-import Twitter from './assets/image/Twitter.png';
-import FaceBook from './assets/image/Facebook.png';
-import Instagram from './assets/image/Instagram.png';
-import LinkedIn from './assets/image/Linkedin.png';
-import Locationicon from './assets/image/Location.png';
-import callicon from './assets/image/Call.png';
-import Emailicon from './assets/image/Email.png';
-import FooterPlatstore from './assets/image/FooterPlaystore.png';
+import Twitter from './image/Twitter.png';
+import FaceBook from './image/Facebook.png';
+import Instagram from './image/Instagram.png';
+import LinkedIn from './image/Linkedin.png';
+import Locationicon from './image/Location.png';
+import callicon from './image/Call.png';
+import Emailicon from './image/Email.png';
+import FooterPlatstore from './image/FooterPlaystore.png';
 
 function Footer() {
     return (
