@@ -1,15 +1,15 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./Home";
-import Categorie from "./Categorie";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+import Footer from "./Components/Footer";
+import Navbar from "./Components/Navbar";
+import Homepage from "./Components/Home";
+import Categorie from "./Components/Categorie";
 function App() {
   return (
     <Router>
       <div>
         <Routes>
+          <Route path='/' element={<Homepage />} />
           <Route path='/navbar' element={<Navbar />} />
-          <Route path='/home' element={<Home />} />
           <Route path='/categorie' element={<Categorie />} />
           <Route path='/footer' element={<Footer />} />
         </Routes>

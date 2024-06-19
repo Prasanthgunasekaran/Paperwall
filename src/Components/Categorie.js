@@ -1,24 +1,24 @@
 import React from 'react';
 import './Categorie.scss';
-import Navbar from './Navbar';
-import Footer from './Footer';
-import BgMsgIcon from './image/BgMsgIcon.png';
-import DW1 from './image/D-W-1.png';
-import DW2 from './image/D-W-2.png';
-import DW3 from './image/D-W-3.png';
-import DW4 from './image/D-W-4.png';
-import DW5 from './image/D-W-5.png';
-import DW6 from './image/D-W-6.png';
-import DW7 from './image/D-W-7.png';
-import DW8 from './image/D-W-8.png';
-import DW9 from './image/D-W-9.png';
-import DW10 from './image/D-W-10.png';
-import DW11 from './image/D-W-11.png';
-import DW12 from './image/D-W-12.png';
-import DW13 from './image/D-W-13.png';
-import DW14 from './image/D-W-14.png';
-import DW15 from './image/D-W-15.png';
-import DW16 from './image/D-W-16.png';
+import Navbar from '../Components/Navbar';
+import Footer from '../Components/Footer';
+import BgMsgIcon from '../Components/assets/image/BgMsgIcon.png';
+import DW1 from '../Components/assets/image/D-W-1.png';
+import DW2 from '../Components/assets/image/D-W-2.png';
+import DW3 from '../Components/assets/image/D-W-3.png';
+import DW4 from '../Components/assets/image/D-W-4.png';
+import DW5 from '../Components/assets/image/D-W-5.png';
+import DW6 from '../Components/assets/image/D-W-6.png';
+import DW7 from '../Components/assets/image/D-W-7.png';
+import DW8 from '../Components/assets/image/D-W-8.png';
+import DW9 from '../Components/assets/image/D-W-9.png';
+import DW10 from '../Components/assets/image/D-W-10.png';
+import DW11 from '../Components/assets/image/D-W-11.png';
+import DW12 from '../Components/assets/image/D-W-12.png';
+import DW13 from '../Components/assets/image/D-W-13.png';
+import DW14 from '../Components/assets/image/D-W-14.png';
+import DW15 from '../Components/assets/image/D-W-15.png';
+import DW16 from '../Components/assets/image/D-W-16.png';
 import { Link } from 'react-router-dom';
 
 
@@ -29,8 +29,8 @@ function Categorie() {
         <div>
             <Navbar />
             <div className="bghead">
-                <Link to='/home' className='bglink'>Home  </Link>
-                <span> &gt; Categories</span> 
+                <Link to='/' className='bglink'>Home  </Link>
+                <span> &gt; Categories</span>
 
             </div>
             <div className='bgcateimg'>
